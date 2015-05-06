@@ -1,0 +1,15 @@
+{
+  "name": "newrelic-async-listener-broken-es6-promise",
+  "version": "1.0.0",
+  "description": "Demonstrates library conflict between newrelic and async-listener w.r.t. ES6 promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Lopuch (http://www.datahero.com)",
+  "license": "MIT",
+  "dependencies": {
+    "async-listener": "^0.5.2",
+    "newrelic": "^1.19.0"
+  }
+}
