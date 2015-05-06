@@ -13,6 +13,8 @@ npm install
 node --harmony index.js
 ```
 
+All the script does is it requires newrelic and async-listener, then simply tries to create an ES6 Promise (`new Promise(function() {});`).
+
 One gets a stack trace like so:
 
 ```
